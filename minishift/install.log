@@ -1,0 +1,56 @@
+
+PS C:\Windows\system32> minishift.exe config set vm-driver virtualbox
+No Minishift instance exists. New 'vm-driver' setting will be applied on next 'minishift start'
+PS C:\Windows\system32> minishift.exe start
+-- Starting profile 'minishift'
+-- Checking if requested OpenShift version 'v3.7.1' is valid ... OK
+-- Checking if requested OpenShift version 'v3.7.1' is supported ... OK
+-- Checking if requested hypervisor 'virtualbox' is supported on this platform ... OK
+-- Checking if VirtualBox is installed ... OK
+-- Checking the ISO URL ... OK
+-- Downloading OpenShift binary 'oc' version 'v3.7.1'
+ 38.43 MiB / 38.43 MiB [===================================================================================] 100.00% 0s-- Downloading OpenShift v3.7.1 checksums ... OK
+-- Checking if provided oc flags are supported ... OK
+-- Starting local OpenShift cluster using 'virtualbox' hypervisor ...
+-- Minishift VM will be configured with ...
+   Memory:    2 GB
+   vCPUs :    2
+   Disk size: 20 GB
+
+   Downloading ISO 'https://github.com/minishift/minishift-b2d-iso/releases/download/v1.2.0/minishift-b2d.iso'
+ 40.00 MiB / 40.00 MiB [===================================================================================] 100.00% 0s
+-- Starting Minishift VM .................................... OK
+-- Checking for IP address ... OK
+-- Checking if external host is reachable from the Minishift VM ...
+   Pinging 8.8.8.8 ... OK
+-- Checking HTTP connectivity from the VM ...
+   Retrieving http://minishift.io/index.html ... OK
+-- Checking if persistent storage volume is mounted ... OK
+-- Checking available disk space ... 0% used OK
+   Importing 'openshift/origin:v3.7.1' . CACHE MISS
+   Importing 'openshift/origin-docker-registry:v3.7.1' . CACHE MISS
+   Importing 'openshift/origin-haproxy-router:v3.7.1' . CACHE MISS
+-- OpenShift cluster will be configured with ...
+   Version: v3.7.1
+Starting OpenShift using openshift/origin:v3.7.1 ...
+Pulling image openshift/origin:v3.7.1
+Pulled 1/4 layers, 26% complete
+Pulled 2/4 layers, 65% complete
+Pulled 3/4 layers, 90% complete
+Pulled 4/4 layers, 100% complete
+Extracting
+Image pull complete
+OpenShift server started.
+
+The server is accessible via web console at:
+    https://192.168.99.100:8443
+
+You are logged in as:
+    User:     developer
+    Password: <any value>
+
+To login as administrator:
+    oc login -u system:admin
+
+-- Exporting of OpenShift images is occuring in background process with pid 1496.
+PS C:\Windows\system32>
