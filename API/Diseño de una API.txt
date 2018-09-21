@@ -1,0 +1,26 @@
+
+Diseño de una API
+----------------------
+
+1.- Se debe definir una vision y estrategia para el diseño de la API. Nos debemos preguntar ¿por qué su organización quiere desarrollar y proporcionar una API, quiénes son las partes interesadas dentro de la organización, quién es la audiencia de su API? 
+
+Se usara el enfoque First API
+
+2.- Preguntar a los interezados que es lo que necesitan para poder ofrecer Valor. Este enfoque desestima inicialmente la importancia infraestructura de TI haciendo que de esta manera esta se adapte a las necesidades de mis clientes en vez de esta ser limitada por la TI.
+
+Se consulta a los interesados ​​en un intento de diseñar, simular, implementar y documentar una API de manera colaborativa antes de que la aplicación u otros canales que la utilizarán existan.
+
+El enfoque de API primero es también algo así como un enfoque de sala limpia en el que la API está diseñada con poca consideración para la propiedad de TI existente. La idea es diseñar un excelente diseño de API como si no hubiera restricciones. Luego, convierta el estado de TI en sumisión, en lugar de comprometer el diseño de la API
+
+ Lo más importante es 
+ 
+  - Que una API funciona
+  - Es fácil de integrar 
+  - y resuelve un problema real.
+
+-----------------------------------------------------
+Históricamente, el diseño de API ha sido un ejercicio para el consumidor: una empresa desarrolla una aplicación rica en datos y, en algún momento, decide crear una API a través de la cual se pueda acceder a esos datos. En los últimos años, sin embargo, cada vez más empresas han optado por un enfoque de API primero en el que las API se diseñan, implementan y documentan antes de que la aplicación que las consumirá exista.
+------------------------------------------------------
+
+Varias aplicaciones propias, WEB, Movil, Escritorio pueden consumir la misma API
+
