@@ -17,3 +17,6 @@ Fijo	Tarjetas	Deudas Diners	250	Credito	DINERS
 Variable	Servicios	Mantenimiento	119.09	Debito	BBVA
 Variable	Servicios	Luz	153	Debito	BBVA
 Variable	Alimentacion	Desayuno-Cena Casa	600	Efectivo	-
+
+
+https://www.toolsqa.com/postman/test-and-collection-runner-in-postman/
