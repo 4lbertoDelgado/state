@@ -1,0 +1,28 @@
+
+Instalacion de MongoDB
+--------------------------------
+Servidor: 01_mongodb01
+MongoDB shell version v4.0.10
+
+# Creamos el archivo .repo
+vi /etc/yum.repos.d/mongodb-org-4.0.repo
+
+[mongodb-org-4.0]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.0/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc
+
+# Instalamos mongodb
+yum install mongodb-org
+
+Iniciacion del servicio de MongoDB
+------------------------------------
+Servidor: 01_mongodb01
+
+# Iniciamos el Servidor
+service mongod start
+
+systemctl enable mongod.service
+
